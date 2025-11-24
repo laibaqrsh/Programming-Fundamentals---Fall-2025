@@ -8,15 +8,15 @@ int main()
 	printf("Enter character: ");
 	scanf("%c", &ranChar);
 	
-	if (ranChar >= 'a' && 'z')
+	if (ranChar >= 'a' && ranChar <= 'z')
 	{
 		printf("Character is a small alphabet.");
 	}
-	else if (ranChar >= 'A' && 'Z')
+	else if (ranChar >= 'A' && ranChar <='Z')
 	{
 		printf("Character is a capital alphabet.");
 	}
-	else if (ranChar >= '0' && '9')
+	else if (ranChar >= '0' && ranChar <= '9')
 	{
 		printf("Character is a digit.");
 	}
